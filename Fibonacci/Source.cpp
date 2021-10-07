@@ -28,6 +28,12 @@ int main()
 	{
 		cout << "1";
 	}
+	
+	else if (num_seq == 0)
+	{
+		cout << "Please write a number starting from 1, as there are no 0 terms or negative ones." << endl << endl;
+		main();
+	}
 
 	else
 	{
